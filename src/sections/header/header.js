@@ -76,7 +76,7 @@ function Header() {
 
     return (
         <header className={show ? "show" : ""}>
-            <a href="#page-start"> <img src="/images/header/logo.png" alt="Website Logo." /></a>
+            <a href="#page-start"> <img src="images/header/logo.png" alt="Website Logo." /></a>
             {navBar()}
         </header>
     )

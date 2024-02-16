@@ -70,28 +70,28 @@ function Home(props) {
                   },
               } }>
                     <SplideSlide>
-                        <img onClick={()=>scrollToSplide(["splide-slide01","chat-moderator"])} src="/images/home/splide/chat-forum-moderator-program.png" alt="Chat Forum Moderator Programm" />
+                        <img onClick={()=>scrollToSplide(["splide-slide01","chat-moderator"])} src="images/home/splide/chat-forum-moderator-program.png" alt="Chat Forum Moderator Programm" />
                     </SplideSlide>
                     <SplideSlide>
-                        <img onClick={()=>scrollToSplide(["splide-slide02","ironman"])} src="/images/home/splide/iron-man.png" alt="Iron Man" />
+                        <img onClick={()=>scrollToSplide(["splide-slide02","ironman"])} src="images/home/splide/iron-man.png" alt="Iron Man" />
                     </SplideSlide>
                     <SplideSlide>
-                        <img onClick={()=>scrollToSplide(["splide-slide03","dailyflow"])} src="/images/home/splide/dailyflow.png" alt="DailyFlow" />
+                        <img onClick={()=>scrollToSplide(["splide-slide03","dailyflow"])} src="images/home/splide/dailyflow.png" alt="DailyFlow" />
                     </SplideSlide>
                     <SplideSlide>
-                        <img onClick={()=>scrollToSplide(["splide-slide04","data-structure-studies"])} src="/images/home/splide/data-structure-studies.png" alt="Data Structure Studies" />
+                        <img onClick={()=>scrollToSplide(["splide-slide04","data-structure-studies"])} src="images/home/splide/data-structure-studies.png" alt="Data Structure Studies" />
                     </SplideSlide>
                     <SplideSlide>
-                        <img onClick={()=>scrollToSplide(["splide-slide05","virtuallife"])} src="/images/home/splide/virtuallife.png" alt="VirtualLife" />
+                        <img onClick={()=>scrollToSplide(["splide-slide05","virtuallife"])} src="images/home/splide/virtuallife.png" alt="VirtualLife" />
                     </SplideSlide>
                     <SplideSlide>
-                        <img onClick={()=>scrollToSplide(["splide-slide06","the-line"])} src="/images/home/splide/the-line.png" alt="The Line" />
+                        <img onClick={()=>scrollToSplide(["splide-slide06","the-line"])} src="images/home/splide/the-line.png" alt="The Line" />
                     </SplideSlide>
                     <SplideSlide>
-                        <img onClick={()=>scrollToSplide(["splide-slide07","the-time-vessel"])} src="/images/home/splide/the-time-vessel.png" alt="The Time Vessel" />
+                        <img onClick={()=>scrollToSplide(["splide-slide07","the-time-vessel"])} src="images/home/splide/the-time-vessel.png" alt="The Time Vessel" />
                     </SplideSlide>
                     <SplideSlide>
-                        <img onClick={()=>scrollToSplide(["splide-slide08","sounds-media"])} src="/images/home/splide/sounds-co.png" alt="Sounds.co" />
+                        <img onClick={()=>scrollToSplide(["splide-slide08","sounds-media"])} src="images/home/splide/sounds-co.png" alt="Sounds.co" />
                     </SplideSlide>
             </Splide>
         )
@@ -121,7 +121,7 @@ function Home(props) {
     return (
         <div id="page-start" className="home">
             <div className="homeSecOne">
-                <img src= "/images/about-me/profile.jpg" alt="me!!!!" />
+                <img src= "images/about-me/profile.jpg" alt="me!!!!" />
                 <div className="homeSecOneDivOne">
                     <h1>Hello there!!</h1>
                     <p>I’m Nima, an undergraduate design computing (UX/UI) student at the university of Sydney.<br/></p>
@@ -137,9 +137,9 @@ function Home(props) {
 
             <div id="home" className="homeSecTwo">
                 <div className="homeSecTwoLinks">
-                    {socialLinks({link:"mailto: sabzenima@gmail.com" ,src:"/images/home/gmail-white.png", alt:"Gmail Logo", text:"Sabzenima@gmail.com"})} 
-                    {socialLinks({link:"https://www.linkedin.com/in/nima-sabzeh?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BWHY%2F7W0yRTW4G17HT0ghYw%3D%3D" ,src:"/images/home/linkedin-white.png", alt:"linkedin Logo", text:"Nima Sabzeh"})}
-                    {socialLinks({link:"tel:0403520859" ,src:"/images/home/phone-white.png", alt:"Phone App Logo", text:"0403520859"})}
+                    {socialLinks({link:"mailto: sabzenima@gmail.com" ,src:"images/home/gmail-white.png", alt:"Gmail Logo", text:"Sabzenima@gmail.com"})} 
+                    {socialLinks({link:"https://www.linkedin.com/in/nima-sabzeh?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BWHY%2F7W0yRTW4G17HT0ghYw%3D%3D" ,src:"images/home/linkedin-white.png", alt:"linkedin Logo", text:"Nima Sabzeh"})}
+                    {socialLinks({link:"tel:0403520859" ,src:"images/home/phone-white.png", alt:"Phone App Logo", text:"0403520859"})}
                 </div>
  
             </div>

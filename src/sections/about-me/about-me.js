@@ -17,7 +17,7 @@ function Aboutme() {
     return (
         <div id="about-me">
             <div className="aboutPartOne">
-                <img src="/images/about-me/profile.jpg" alt="A picture of me!!!!" />
+                <img src="images/about-me/profile.jpg" alt="A picture of me!!!!" />
                 <p>I am a second-year design student at the University of Sydney with a strong interest in both computer science and design. My primary focus is on product design, graphic design, and front-end web development/design. While my programming knowledge primarily stems from elective courses, I possess a foundational understanding of various programming and problem-solving skills. In terms of my strengths as a designer/developer, my tutors and colleagues consistently praised my ability to present and explain design decisions and ideas, as well as my effective leadership skills within a team. My primary objective in my future career would be to innovatively combine my expertise in design and computer science, hoping to extract optimal outcomes from their intersection.</p>
             </div>
             <div className="aboutPartTwo">
