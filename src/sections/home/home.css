@@ -1,0 +1,292 @@
+.homeSecOne{
+    padding: 40px 0px 40px 0px;
+    background: linear-gradient(90deg, rgba(255, 126, 53, 0.90) 0%, rgba(157, 0, 122, 0.90) 52.65%, rgba(11, 151, 253, 0.90) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 90px;
+}
+.homeSecOne img{
+    max-width: 330px;
+    border-radius: 200px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.50);
+}
+.homeSecOneDivOne{
+    margin-right: 40px;
+    margin-left: 40px;
+    max-width: 960px;
+}
+
+.homeSecOne h1{
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: normal;
+    color: #FFF;
+    font-size: 60px;
+    margin-top: 0px;
+}
+.homeSecOne p{
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFF;
+    font-size: 30px;
+    margin: 0px;
+}
+
+.homeSecOneDivTwo{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin-top: 10px;
+}
+
+.homeSecOneDivTwo p{
+    margin: 10px 40px 10px 0px;
+}
+
+.homeSecOneDivTwo Button{
+    margin: 10px 20px 10px 0px;
+}
+
+.homeSecTwo{
+    border-radius: 0px 0px 50px 50px;
+    background: linear-gradient(270deg, #0038FF 0%, rgba(157, 0, 122, 0.57) 48.68%, #FF5C00 99.97%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.homeSecTwoLinks{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-around;
+    width: 1300px;
+    flex-wrap: wrap;
+}
+
+.socialLink{
+    margin: 0px 30px 0px 30px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.socialLink:hover{
+    scale: 0.9;
+}
+
+.socialLink p{
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #FFF;
+    margin: 0px;
+    text-decoration: underline;
+}
+
+.socialLink img{
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+}
+
+.homeSecThree{
+    flex-wrap: wrap;
+    padding-bottom: 80px;
+}
+
+.homeSecThreeButtons{
+    margin: 50px auto 0px auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 1050px;
+    flex-wrap: wrap;
+}
+.splide{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    margin: 0 auto;
+}
+.slideshow img{
+    border-radius: 45px;
+    display: flex;
+    max-width: 350px;
+    max-height: 350px;
+    margin: 0 auto;
+    transition: all 0.5s;
+    box-shadow: 0px 4px 20px 10px rgba(0, 0, 0, 0.25);
+}
+
+.splide__arrow svg{
+    fill: #00CBA7 !important;
+}
+
+.splide__track{
+    padding: 20px 0px 30px 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.splide__pagination{
+    bottom: 0px !important;
+}
+.splide__pagination__page{
+    background: black !important;
+    height: 15px !important;
+    width: 73px !important;
+    opacity: 1 !important;
+    border-radius: 20px !important;
+    margin: 0px 10px 10px 10px !important;
+}
+
+.splide__pagination__page:hover {
+    opacity: 0.7 !important;
+}
+
+.splide__pagination__page.is-active{
+    background: #00CBA7 !important;
+    transform: scale(1.2) !important;
+}
+
+.splide__slide:not(.is-active) img{
+    filter: blur(5px);
+}
+
+.splide__slide.is-active img{
+    cursor: pointer;
+}
+
+.splide__slide.is-active img:hover{
+    scale: 0.95;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .homeSecOne{
+        background: linear-gradient(180deg, rgba(255, 126, 53, 0.90) 0%, rgba(157, 0, 122, 0.90) 52.65%, rgba(11, 151, 253, 0.90) 100%);
+        margin-top: 141.17px;
+        padding-bottom: 20px !important;
+    }
+    .homeSecOne img{
+        max-width: 290px;
+    }
+    .homeSecOne h1{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .homeSecOne p{
+        text-align: center;
+        font-size: 25px;
+    }
+    .homeSecOneDivTwo{
+        max-width: 500px;
+        margin-top: 10px;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+    .homeSecOneDivTwo p{
+        margin: 20px 0px;
+    }
+    .homeSecOneDivTwoButtons{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-around;
+        max-width: 300px;
+    }
+    .homeSecOneDivTwo Button{
+        margin: 0px 0px 10px 0px;
+    }
+    .socialLink:hover{
+        scale: 1;
+        cursor: auto;
+    }
+    .socialLink:active{
+        scale: 0.9;
+    }
+    .splide{
+        padding-top: 15px !important;
+    }
+    .homeSecThreeButtons Button{
+        margin: 0px 0px 10px 0px;
+    }
+    .homeSecOneDivTwoButtons Button{
+        font-size: 25px !important;
+    }
+
+}
+
+@media screen and (max-width: 580px) {
+    .homeSecThreeButtons{
+        margin-top: 70px;
+    }
+    .homeSecOne{
+        margin-top: 0px;
+    }
+    .homeSecOne img{
+        margin-top: 50px;
+    }
+    .homeSecOneDivOne{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .homeSecOne h1{
+        font-size: 35px;
+    }
+    .homeSecOne p{
+        font-size: 20px;
+    }
+    .homeSecTwo{
+        border-radius: 0px 0px 30px 30px;
+        background: linear-gradient(180deg, rgba(11, 151, 253, 0.90), #00111E 100%);
+    }
+    .homeSecTwoLinks{
+        margin: 0px 0px 20px 0px;
+        max-width: 400px !important;
+    }
+    .socialLink{
+        margin: 20px 10px 0px 10px;
+        scale: 0.75;
+    }
+    .socialLink:hover{
+        scale: 0.7;
+    }
+    .socialLink:active{
+        scale: 0.7;
+    }
+    .slideshow img{
+        max-width: 230px;
+    }
+    .splide__pagination__page{
+        height: 20px !important;
+        width: 52px !important;
+        margin: 0px 10px 20px 10px !important;
+    }
+    .splide__pagination{
+        bottom: -40px !important;
+    }
+    .homeSecThree{
+        padding-bottom: 30px;
+    }
+    .splide__pagination__page:hover {
+        opacity: 1 !important;
+    }
+    .homeSecThreeButtons Button{
+        scale: 0.8;
+    }
+    .homeSecThreeButtons Button:hover{
+        scale: 0.8;
+    }
+    .homeSecThreeButtons Button:active{
+        scale: 0.7;
+    }
+
+}

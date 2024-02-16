@@ -1,0 +1,31 @@
+.mainButton{
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding-bottom: 2px;
+    border: 0;
+    transition: 0.3s;
+    
+}
+.mainButton:hover{
+    filter: brightness(1.2);
+    cursor: pointer;
+    scale: 0.9;
+}
+
+@media screen and (max-width: 1100px) {
+    .mainButton{
+        scale: 0.9;
+    }
+    .mainButton:hover{
+        filter: brightness(1);
+        cursor: auto;
+        scale: 0.9;
+    }
+    .mainButton:active{
+        opacity: 26;
+        filter: brightness(1.2);
+        scale: 0.7;
+    }
+}

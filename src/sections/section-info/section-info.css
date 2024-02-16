@@ -1,0 +1,200 @@
+main{
+    padding-bottom: 20px;
+}
+
+.mainHead{
+    opacity: 95%;
+    padding: 20px 30px 20px 30px;
+    display: flex;
+    background: linear-gradient(90deg, #003a7b 0%, #000913 100%);
+    position: fixed;
+    width: 100%;
+    z-index: 40;
+}
+
+.mainHead h1{
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: normal;
+    color: #FFA370;
+    font-size: 60px;
+    margin: 0px 0px 0px 20px;
+    max-width: 680px;
+}
+.back-icon-1 , .back-icon-2{
+    width: 50px;
+    border-radius: 20px;
+    height: 10px;
+    background-color: #FFA370;
+    transition: all 0.5s;
+    pointer-events: none;
+    display: block;
+}
+.back-icon-1{
+    transform: translate(0, 19px) rotate(-35deg);
+}
+
+.back-icon-2{
+    transform: translate(0, 33px) rotate(35deg);
+}
+
+.mainArticle{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 900px;
+    padding-top: 130px;
+}
+
+.mainArticle section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 440px;
+    height: 420px;
+    box-shadow: 0px 3.272px 16.36px 8.18px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+
+.mainArticle section h2{ 
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 750;
+    font-style: normal;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+.mainArticle section p{ 
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 25px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 100%;
+}
+
+.designSec{
+    background: linear-gradient(180deg, #000 0%, #0047FF 99.99%, #0075FF 100%);
+    border: 1px solid #00F9AE;
+}
+
+.programmingSec{
+    background: linear-gradient(180deg, #000 0%, #C25200 100%);
+    border: 1px solid #FF7F38;
+}
+
+.designLink{
+    background: #00F9AE;
+}
+.programmingLink{
+    background: #FF7F38;
+}
+
+.mainArticle img{
+    width: 75px;
+}
+.infoLink{
+    display: flex;
+    justify-content: center;
+    width: 123px;
+    height: 80px;
+    border-radius: 43px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+}
+.infoLink:hover{
+    filter: brightness(1.2);
+    cursor: pointer;
+    scale: 0.9;
+}
+
+.twoSec{
+    max-width: 500px !important;
+    justify-content: space-around;
+}
+.oneSec{
+    max-width: 500px !important;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.smallP{
+    height: 132px !important;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .mainArticle{
+        max-width: 500px !important;
+        height: 100%;
+        justify-content: space-around;
+    }
+    .mainArticle section{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .mainArticle section{
+        width: 297px;
+        height: 335px;
+    }
+    .mainArticle section p{
+        font-size: 16px;
+    }
+    .mainArticle section h2{
+        font-size: 27px;
+    }
+    .infoLink{
+        height: 50px;
+        width: 75px;
+    }
+    .infoLink:hover{
+        scale: 1;
+    }
+    .infoLink:active{
+        scale: 0.9;
+    }
+    .mainArticle img{
+        width: 45px;
+    }
+    .mainHead{
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 15px 0px 20px 0px;
+    }
+    .mainHead h1{
+        font-size: 28px;
+        width: 100%;
+        margin-left: 0px !important;
+        text-align: center;
+        padding:0px 10px 0px 10px;
+    }
+    .back-icon-1 , .back-icon-2{
+        scale: 0.4;
+    }
+    .back-icon-1{
+        transform: translate(-10px, 20px) rotate(125deg);
+    }
+    
+    .back-icon-2{
+        transform: translate(14px, -4px) rotate(-125deg);
+    }
+    .smallP{
+        height: 147px  !important;
+    }
+    .infoSecIcon{
+        height: 30px;
+    }
+}
