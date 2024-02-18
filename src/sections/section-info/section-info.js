@@ -1,7 +1,6 @@
 import "./section-info.css"
 import { data } from "./data";
 import { useNavigate, useSearchParams } from "react-router-dom";
-import { useEffect } from "react";
 function SectionInfo() {
     let [searchParams] = useSearchParams();
     let sectionName = searchParams.get("data")

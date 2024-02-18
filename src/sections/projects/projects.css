@@ -24,6 +24,7 @@
 }
 
 .projectSection{
+    scale: 0;
     max-width: 1250px;
     margin: 0px auto 100px auto;
     background-color: #D9E8FF;
@@ -109,6 +110,9 @@
 }
 .mainHead:hover{
     cursor: pointer;
+}
+.appear{
+    scale: 1;
 }
 
 @media screen and (max-width: 1330px) {

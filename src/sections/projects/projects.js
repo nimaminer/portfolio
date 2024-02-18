@@ -2,12 +2,21 @@ import { useEffect, useState } from "react"
 import "./projects.css"
 import { useNavigate } from "react-router-dom";
 import Button from "../button";
-import { fireEvent } from "@testing-library/react";
 import { data } from "./data";
 function Projects(props) {
     const navigate = useNavigate()
-    const [iconChange, setIconChange] = useState(false)
     const [dateToUse, setDataToUse] = useState(data)
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting){
+          entry.target.classList.add("appear")
+        } else{
+          entry.target.classList.remove("appear")
+        }
+      });
+    });
+    const hiddenElements = document.querySelectorAll(".projectSection")
+    hiddenElements.forEach((el) => observer.observe(el));
 
 
     useEffect(() => {
@@ -29,7 +38,6 @@ function Projects(props) {
             </>
         )
     }
-
     const handleClick = (id) => {
         navigate("/info?data=" + id);
     }

@@ -1,6 +1,5 @@
 import Button from "../button";
 import "./home.css"
-import { useSearchParams } from 'react-router-dom';
 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
@@ -10,7 +9,6 @@ import '@splidejs/react-splide/css/sea-green';
 import '@splidejs/react-splide/css/core';
 
 function Home(props) {
-    const [searchParams] = useSearchParams();
     
     const socialLinks = (obj) =>  {
         return  (
