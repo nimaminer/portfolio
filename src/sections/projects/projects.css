@@ -24,7 +24,8 @@
 }
 
 .projectSection{
-    scale: 0;
+    opacity: 0;
+    scale: 0.9;
     max-width: 1250px;
     margin: 0px auto 100px auto;
     background-color: #D9E8FF;
@@ -32,7 +33,7 @@
     border-radius: 30px;
     padding: 25px 0px 0px 30px;
     position: relative;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 .projectSection:hover{
     scale: 1.02;
@@ -112,6 +113,7 @@
     cursor: pointer;
 }
 .appear{
+    opacity: 1;
     scale: 1;
 }
 

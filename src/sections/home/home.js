@@ -100,11 +100,7 @@ function Home(props) {
         if (element.classList.contains("is-active")){
             props.setOpen(ids[1])
             var elem = document.getElementById(ids[1])
-            if (window.innerWidth <= 550){
-                var offset = 80
-            } if (window.innerWidth >= 550){
-                var offset = 400
-            }
+            var offset = 40
             const bodyRect = document.body.getBoundingClientRect().top;
             const elementRect = elem.getBoundingClientRect().top;
             const elementPosition = elementRect - bodyRect;
@@ -130,7 +126,7 @@ function Home(props) {
                     <div className="homeSecOneDivTwo">
                         <p >Welcome to my portfolio!!!</p>
                         <div className="homeSecOneDivTwoButtons">
-                            <Button click={()=> window.open("https://drive.google.com/file/d/1hcB2KJLhZWSVEXDYIV8Ag7pq873yMdn2/view?usp=sharing", "_blank")} backColor={"#FF6B19"} shadow={"0px 3.256px 3.256px 0px rgba(255, 255, 255, 0.50)"} text={"CV"} fSize={28} textColor={"#FFF"} width={225} height={60}/>
+                            <Button click={()=> window.open("https://drive.google.com/file/d/1DaiURk0nAPedaFZGOdCq04FNy7B3CA7y/view?usp=sharing", "_blank")} backColor={"#FF6B19"} shadow={"0px 3.256px 3.256px 0px rgba(255, 255, 255, 0.50)"} text={"CV"} fSize={28} textColor={"#FFF"} width={225} height={60}/>
                             <Button click={() => {scrollToElement("about-me")}} backColor={"#FF6B19"} shadow={"0px 3.256px 3.256px 0px rgba(255, 255, 255, 0.50)"} text={"More About Me"} fSize={28} textColor={"#FFF"} width={270} height={60}/>
                         </div>
                     </div>
