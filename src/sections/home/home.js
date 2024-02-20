@@ -146,7 +146,7 @@ function Home(props) {
                 <div className="homeSecThreeButtons">
                     <Button click={() => {scrollToElement("design-projects")}} backColor={"linear-gradient(270deg, #1400F7 0.76%, #0A8BD4 48.97%, #00F9AE 99.24%)"} shadow={"0px 4px 20px 10px rgba(0, 0, 0, 0.25)"} text={"Design Projects"} fSize={30} textColor={"#FFF"} width={325} height={100}/>
                     <Button click={() => {scrollToElement("programming-projects")}} backColor={"linear-gradient(270deg, #FFB800 0%, #FE4C00 100%)"} shadow={"0px 4px 20px 10px rgba(0, 0, 0, 0.25)"} text={"Programming Projects"} fSize={30} textColor={"#FFF"} width={325} height={100}/>
-                    <Button click={() => {scrollToElement("portfolio-project")}} backColor={"linear-gradient(90deg, #8000FF 0%, #FA00FF 100%)"} shadow={"0px 4px 20px 10px rgba(0, 0, 0, 0.25)"} text={"Portfolio Project"} fSize={30} textColor={"#FFF"} width={325} height={100}/>
+                    <Button click={() => {scrollToElement("portfolio-project")}} backColor={"linear-gradient(90deg, #8000FF 0%, #FA00FF 100%)"} shadow={"0px 4px 20px 10px rgba(0, 0, 0, 0.25)"} text={"Portfolio Creation Process"} fSize={30} textColor={"#FFF"} width={325} height={100}/>
                 </div>
             </div>
         </div>

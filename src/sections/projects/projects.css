@@ -85,6 +85,17 @@
     margin-bottom: 0px;
 }
 
+.projectSectionText h5{
+    font-family: "Sen", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    color: #0053b8;
+    font-size: 18px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
 .projectSectionText p{
     font-family: "Sen", sans-serif;
     font-optical-sizing: auto;
@@ -164,7 +175,9 @@
     .projectSectionText h4{
         text-align: center;
     }
-    
+    .projectSectionText h5{
+        text-align: center;
+    }
     .projectSectionText p{
         text-align: center;
     }
@@ -241,7 +254,7 @@
         height: 60px;
         overflow: hidden;
         border-radius: 50px;
-        max-width: 85%;
+        max-width: 81%;
         background-color: linear-gradient(270deg, #1400F7 0.76%, #0A8BD4 48.97%, #00F9AE 99.24%) !important;
         background-color: #bfdefe;
         transition: all 0.3s;
@@ -253,7 +266,7 @@
         width: 30px;
         border-radius: 30px;
         height: 5px;
-        background-color: black;
+        background-color:#0053b8;
         margin: 6px auto;
         transition: all 0.5s;
         pointer-events: none;

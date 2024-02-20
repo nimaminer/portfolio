@@ -27,7 +27,6 @@ function Projects(props) {
             }
         })
         sectionOpen(obj)
-
     }, [props.isOpen])
 
     const renderSection = (array) => {
@@ -86,6 +85,7 @@ function Projects(props) {
                     <div className="projectSectionText">
                         <h3>{obj.title}</h3>
                         {downArrow(obj)}
+                        <h5>{obj.projectType}</h5>
                         <p>{obj.mainText}</p>
                         {obj.firstText ? renderSection(obj.firstText) : null}
                         {obj.secondText ? renderSection(obj.secondText) : null}
