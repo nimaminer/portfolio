@@ -100,7 +100,11 @@ function Home(props) {
         if (element.classList.contains("is-active")){
             props.setOpen(ids[1])
             var elem = document.getElementById(ids[1])
-            const offset = 40;
+            if (window.innerWidth <= 550){
+                var offset = 80
+            } if (window.innerWidth >= 550){
+                var offset = 400
+            }
             const bodyRect = document.body.getBoundingClientRect().top;
             const elementRect = elem.getBoundingClientRect().top;
             const elementPosition = elementRect - bodyRect;
