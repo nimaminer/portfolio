@@ -67,4 +67,11 @@ export const data = {
         secNum: "oneSec",
         type: "programmingSec",
         link: "programmingLink"
+    },
+    "portfolio-creation-process": {
+        header: "React-Based Portfolio",
+        firstSec: ["Coming Soon!!!", parse(``),"","images/section-info/cloudb.png","smallP"],
+        secNum: "oneSec",
+        type: "designSec",
+        link: "designLink"
     }}

@@ -116,9 +116,7 @@
 }
 
 #portfolio-project{
-    height: 120px !important;
     background:linear-gradient(90deg, #8000FF 0%, #FA00FF 100%);
-    text-align: center;
 }
 .mainHead:hover{
     cursor: pointer;

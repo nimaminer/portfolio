@@ -116,7 +116,8 @@ function Projects(props) {
             {project(dateToUse[5])}
             {project(dateToUse[6])}
             {project(dateToUse[7])}
-            <h2 id="portfolio-project">Portfolio Creation Process<br></br>Coming Soon!!</h2>
+            <h2 id="portfolio-project">Portfolio Creation Process</h2>
+            {project(dateToUse[8])}
 
         </article>
     );

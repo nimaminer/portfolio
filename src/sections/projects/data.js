@@ -145,5 +145,25 @@ export const data = [
         buttonProps: ["#FF7F38", "0px 5px 5px rgba(0, 0, 0, 0.25)", "Deliverables", 25, "#FFFFFF", 200, 50],
         id: "data-structure-studies",
         isOpen: false
+    },
+    {
+        border: "4px solid #8100FF",
+        projectType: "'University Project'",
+        title: 'React-Based Portfolio',
+        mainText: parse(`As a design undergraduate, having a fully personalized portfolio before graduation is vital, and that's what drove the inception of this project. The primary objective of my portfolio was to exhibit my top projects completed during my studies, with the intention of incorporating new ones from future internships, all in a highly creative and personalized manner. One of the key reasons for building my own portfolio rather than utilizing third-party tools was because, as a designer, creativity and personalization are two fundamental values that I hold dear, both in my academic pursuits and in my prospective career.<br></br>Initially, my portfolio began as a static single webpage, but upon further consideration, I made the decision to learn React.JS from scratch to develop an interactive web application using this remarkable tool.`),
+        firstText: ["Tools:", parse(`<strong>React.JS, Figma, Adobe Photoshop, GitHub, Visual Studio Code, Node JS, Git</strong>`)],
+        secondText: ["Languages:", parse(`<strong>JavaScript, HTML, CSS</strong>`)],
+        thirdText: ["Design Methods:",  parse(`<strong>Background Research, Ideation, Prototyping</strong> (sketches, wireframes, and mid-high fidelity mock-ups)`)],
+        mBottom: 80,
+        imageOneSrc: "images/projects/portfolio/mac.png",
+        imageOneAlt: "Image of Nima Sabzeh's Portfolio on a mac",
+        imageOneWidth: 550,
+        imageTwoSrc: "images/projects/portfolio/phone.png",
+        imageTwoAlt: "Image of Nima Sabzeh's Portfolio on an Iphone 14 Pro",
+        imageTwoWidth: 150,
+        secInfoText: "Unit Of Study: None (Self Study Project)",
+        buttonProps: ["#8100FF", "0px 5px 5px rgba(0, 0, 0, 0.25)", "Full Design Process", 25, "#FFFFFF", 300, 50],
+        id: "portfolio-creation-process",
+        isOpen: false
     }
 ]
