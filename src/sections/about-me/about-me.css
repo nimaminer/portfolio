@@ -36,9 +36,9 @@
 }
 
 .aboutPartTwo{
-    width: 1550px;
+    width: 1400px;
     display: flex;
-    flex-wrap: wrap-reverse;
+    flex-wrap: inherit;
     justify-content: space-around;
     margin: 50px 0px;
 }
@@ -51,12 +51,12 @@
     color: rgb(255, 255, 255);
     font-size: 40px;
     text-align: center;
-    margin: 32px 0px;
+    margin: 32px 0px 20px 0px;
 }
 
 
 .aboutPartTwoA{
-    max-width: 460px;
+    max-width: 400px;
     border-radius: 75px;
     border: 1px solid #FFF;
     background: linear-gradient(180deg, #002138 0%, rgba(0, 33, 56, 0.21) 100%);
@@ -65,20 +65,18 @@
 
 
 .aboutPartTwoB{
-    max-width: 970px;
+    max-width: 400px;
     border-radius: 75px;
     border: 1px solid #FFF;
     background: linear-gradient(180deg, #002138 0%, rgba(0, 33, 56, 0.21) 100%);
+    align-self: center;
     box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.25);
 }
-.aboutPartTwoBLists{
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .aboutPartTwoList{
     padding: 0px;
     list-style: none;
-    width: 460px;
+    width: 400px;
     line-height: 80px;
     margin-top: 0px;
 }
@@ -107,14 +105,14 @@
     .aboutPartTwoA{
         margin-top: 40px;
     }
+    .aboutPartTwoB{
+        margin-top: 40px;
+    }
 }
 
 @media screen and (max-width: 970px) {
     .aboutPartTwo{
         max-width: 500px;
-    }
-    .aboutPartTwoB{
-        max-width: 460px;
     }
 }
 @media screen and (max-width: 550px) {

@@ -36,19 +36,18 @@ export const data = {
         type: "designSec",
         link: "designLink"
     },
-    "the-line":{
-        header: "The Line",
-        firstSec: ["UX Research", parse(`Introduction to problem area<br></br>Research plan/objective<br></br>Research methods<br></br>Research findings/analysis<br></br>Research presentational video`),"https://drive.google.com/drive/folders/1uClAE2t0Tp2RGr2cIty7lZakYhbIby7K?usp=sharing","images/section-info/cloudb.png"],
-        secondSec: ["Prototyping v1", parse(`Overview of solution<br></br>Iteration 1<br></br>User testing<br></br>Annotations<br></br>Iteration 2`),"https://drive.google.com/file/d/1a4lGK4pOt2LxW5XzXaZtc8UL_E-U_36h/view?usp=sharing","images/section-info/cloudb.png"],
-        thirdSec: ["Promotional Video", parse(`Introduction to problem area<br></br>Introducing The Line<br></br>the Line’s features<br></br>Users’ needs<br></br>“A Solution”`),"https://youtu.be/tqgSQjQnzVU?si=vgSe75aMsUthj0mV","images/section-info/cloudb.png"],
-        fourthSec: ["Final Visual Report", parse(`Mid-Fidelity prototype<br></br>Annotations<br></br>Iteration 3<br></br>Final Product, Features,<br></br>Annotations, Promotional Poster`),"https://drive.google.com/drive/folders/1VQaxhzfYjEm_EfjlscDlN3POmt6WDmY-?usp=sharing","images/section-info/cloudb.png"],
+    "glacial-shift":{
+        header: "Glacial Shift",
+        firstSec: ["ShellSavers", parse(`Introduction to Brief<br></br>Primary & Secondary Research<br></br>AR SnapChat Lens Description<br></br>Promotional Video`),"https://youtu.be/WRkI4lwh5XM?si=8NF8rpCQq4XRj5jB","images/section-info/cloudb.png"],
+        secondSec: ["Glacial Shift", parse(`Introduction to Brief<br></br>Primary & Secondary Research<br></br>VR Game Description & Showcase<br></br>Promotional Video`),"https://youtu.be/iUippLHwck8?si=ldmYbnOfiIc4kqlt","images/section-info/cloudb.png"],
+        secNum: "twoSec",
         type: "designSec",
         link: "designLink"
     },
-    "chat-moderator":{
-        header: "Chat Forum Moderator",
-        firstSec: ["Workout Plan Generator", parse(`Code<br></br>Documentation`),"https://drive.google.com/drive/folders/1DBIfTr8Tblgf-V9zTEIkJLAZORIT_a_r?usp=sharing","images/section-info/cloudw.png","smallP"],
-        secondSec: ["Chat Moderator", parse(`Code<br></br>Documentation`),"https://drive.google.com/drive/folders/1Db4coJBzHwB0Fs9Vxlig2WDT3OTtMbaP?usp=sharing","images/section-info/cloudw.png"],
+    "ink-ball":{
+        header: "InkBall",
+        firstSec: ["InkBall", parse(`Video Demonstration`),"https://drive.google.com/file/d/1C5vNz0mJwyeQo9p4NiukQZAyoGcRpq9F/view?usp=sharing","images/section-info/cloudw.png","smallP"],
+        secondSec: ["MineSweeper", parse(`Video Demonstration`),"https://drive.google.com/file/d/15_iqEUsR8D12NB4cNBQFfTujxlgBOvCF/view?usp=sharing","images/section-info/cloudw.png"],
         secNum: "twoSec",
         type: "programmingSec",
         link: "programmingLink"

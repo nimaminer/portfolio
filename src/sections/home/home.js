@@ -68,7 +68,7 @@ function Home(props) {
                   },
               } }>
                     <SplideSlide>
-                        <img onClick={()=>scrollToSplide(["splide-slide01","chat-moderator"])} src="images/home/splide/chat-forum-moderator-program.png" alt="Chat Forum Moderator Programm" />
+                        <img onClick={()=>scrollToSplide(["splide-slide01","ink-ball"])} src="images/home/splide/ink-ball.png" alt="InkBall Programm" />
                     </SplideSlide>
                     <SplideSlide>
                         <img onClick={()=>scrollToSplide(["splide-slide02","ironman"])} src="images/home/splide/iron-man.png" alt="Iron Man" />
@@ -83,7 +83,7 @@ function Home(props) {
                         <img onClick={()=>scrollToSplide(["splide-slide05","virtuallife"])} src="images/home/splide/virtuallife.png" alt="VirtualLife" />
                     </SplideSlide>
                     <SplideSlide>
-                        <img onClick={()=>scrollToSplide(["splide-slide06","the-line"])} src="images/home/splide/the-line.png" alt="The Line" />
+                        <img onClick={()=>scrollToSplide(["splide-slide06","glacial-shift"])} src="images/home/splide/glacial-shift.png" alt="Glacial Shift" />
                     </SplideSlide>
                     <SplideSlide>
                         <img onClick={()=>scrollToSplide(["splide-slide07","the-time-vessel"])} src="images/home/splide/the-time-vessel.png" alt="The Time Vessel" />
@@ -122,11 +122,11 @@ function Home(props) {
                 <img src= "images/about-me/profile.jpg" alt="me!!!!" />
                 <div className="homeSecOneDivOne">
                     <h1>Hello there!!</h1>
-                    <p>I’m Nima, an undergraduate design computing (UX/UI) student at the university of Sydney.<br/></p>
+                    <p>I’m Nima, a Master's of Computer Science student at the university of Sydney, with a background in UI/UX Design.<br/></p>
                     <div className="homeSecOneDivTwo">
                         <p >Welcome to my portfolio!!!</p>
                         <div className="homeSecOneDivTwoButtons">
-                            <Button click={()=> window.open("https://drive.google.com/file/d/1DaiURk0nAPedaFZGOdCq04FNy7B3CA7y/view?usp=sharing", "_blank")} backColor={"#FF6B19"} shadow={"0px 3.256px 3.256px 0px rgba(255, 255, 255, 0.50)"} text={"CV"} fSize={28} textColor={"#FFF"} width={225} height={60}/>
+                            <Button click={()=> window.open("https://drive.google.com/file/d/172a8g575XK_OQFbm63Bmw2vlnQgH_KzS/view?usp=sharing", "_blank")} backColor={"#FF6B19"} shadow={"0px 3.256px 3.256px 0px rgba(255, 255, 255, 0.50)"} text={"CV"} fSize={28} textColor={"#FFF"} width={225} height={60}/>
                             <Button click={() => {scrollToElement("about-me")}} backColor={"#FF6B19"} shadow={"0px 3.256px 3.256px 0px rgba(255, 255, 255, 0.50)"} text={"More About Me"} fSize={28} textColor={"#FFF"} width={270} height={60}/>
                         </div>
                     </div>
@@ -146,7 +146,6 @@ function Home(props) {
                 <div className="homeSecThreeButtons">
                     <Button click={() => {scrollToElement("design-projects")}} backColor={"linear-gradient(270deg, #1400F7 0.76%, #0A8BD4 48.97%, #00F9AE 99.24%)"} shadow={"0px 4px 20px 10px rgba(0, 0, 0, 0.25)"} text={"Design Projects"} fSize={30} textColor={"#FFF"} width={325} height={100}/>
                     <Button click={() => {scrollToElement("programming-projects")}} backColor={"linear-gradient(270deg, #FFB800 0%, #FE4C00 100%)"} shadow={"0px 4px 20px 10px rgba(0, 0, 0, 0.25)"} text={"Programming Projects"} fSize={30} textColor={"#FFF"} width={325} height={100}/>
-                    <Button click={() => {scrollToElement("portfolio-project")}} backColor={"linear-gradient(90deg, #8000FF 0%, #FA00FF 100%)"} shadow={"0px 4px 20px 10px rgba(0, 0, 0, 0.25)"} text={"Portfolio Creation Process"} fSize={30} textColor={"#FFF"} width={325} height={100}/>
                 </div>
             </div>
         </div>
